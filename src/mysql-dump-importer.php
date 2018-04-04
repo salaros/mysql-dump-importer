@@ -57,7 +57,7 @@ class MysqlDumpImporter
             }
 
             // For some reason utf8mb4 stuff imported only
-            self::replaceEncoding($sqlLine);
+            self::replaceEncoding($line);
 
             if (empty($queryMultiline)) {
                 $query = $line; // Not in multi-line mode: 1 x line = 1 x query
