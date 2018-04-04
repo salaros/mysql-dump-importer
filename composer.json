@@ -1,0 +1,32 @@
+{
+    "name"          : "salaros/mysql-dump-importer",
+    "description"   : "Imports MySQL dump files (.sql) using php-mysqli extension",
+    "type"          : "library",
+    "license"       : "MIT",
+    "homepage"      : "https://github.com/salaros/mysql-dump-importer",
+    "keywords" : [
+        "MySQL",
+        "database",
+        "dump",
+        "sql",
+        "import",
+        "importer"
+    ],
+    "support" : {
+        "issues"        : "https://github.com/salaros/mysql-dump-importer/issues",
+        "source"        : "https://github.com/salaros/mysql-dump-importer"
+    },
+    "authors" : [
+        {
+            "name"      : "Zhmayev Yaroslav",
+            "email"     : "salaros@yandex.ru",
+            "homepage"  : "https://github.com/salaros",
+            "role"      : "Developer"
+        }
+    ],
+    "autoload":{
+        "classmap": [
+            "src/"
+        ]
+    }
+}
